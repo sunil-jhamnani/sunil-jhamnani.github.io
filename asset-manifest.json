@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f0e0d60e.css",
+    "main.js": "/static/js/main.c93aaa11.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/spritesheet.jpg": "/static/media/spritesheet.3006e4a6e82fd7421eb8.jpg",
+    "static/media/profile1.png": "/static/media/profile1.7b8a2114dd7922ef8b31.png",
+    "static/media/Sunil-Jhamnani-Resume.pdf": "/static/media/Sunil-Jhamnani-Resume.3823d2fdb458b9329f6e.pdf",
+    "static/media/profile1.jpeg": "/static/media/profile1.9014590cc53aecf237fe.jpeg",
+    "static/media/proximanova-light-webfont.svg": "/static/media/proximanova-light-webfont.b56b8816a5819aeeb9d2.svg",
+    "static/media/proximanova-bold-webfont.svg": "/static/media/proximanova-bold-webfont.04f56bf8a07992b50eaf.svg",
+    "static/media/proximanova-bold-webfont.html": "/static/media/proximanova-bold-webfont.d334dcf12fc38e39f0ce.html",
+    "static/media/proximanova-light-webfont.html": "/static/media/proximanova-light-webfont.6d43afa6b69236b203b1.html",
+    "static/media/proximanova-semibold-webfont.woff": "/static/media/proximanova-semibold-webfont.af095e22f0d21b2f7259.woff",
+    "static/media/proximanova-bold-webfont.woff": "/static/media/proximanova-bold-webfont.5feb63dffce12dc6146b.woff",
+    "static/media/proximanova-light-webfont.woff": "/static/media/proximanova-light-webfont.76e6742f8cc1d42d50d5.woff",
+    "static/media/proximanova-bold-webfont.eot": "/static/media/proximanova-bold-webfont.8796f6bfdb348e265003.eot",
+    "static/media/proximanova-bold-webfontd41d.eot": "/static/media/proximanova-bold-webfontd41d.8796f6bfdb348e265003.eot",
+    "static/media/proximanova-light-webfont.eot": "/static/media/proximanova-light-webfont.e624afb9cfbb22aecc7e.eot",
+    "static/media/proximanova-light-webfontd41d.eot": "/static/media/proximanova-light-webfontd41d.e624afb9cfbb22aecc7e.eot",
+    "static/media/proximanova-semibold-webfont.html": "/static/media/proximanova-semibold-webfont.2f12516a5dbceb4dd292.html",
+    "static/media/open-source.svg": "/static/media/open-source.004f41e03c91ef836820140f230eb523.svg",
+    "static/media/conference-speaker.svg": "/static/media/conference-speaker.583849b37a69ddb6192ef03c161bef0b.svg",
+    "static/media/school.svg": "/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
+    "index.html": "/index.html",
+    "static/media/work.svg": "/static/media/work.3710b62484ed638074240e99317c6c60.svg",
+    "main.f0e0d60e.css.map": "/static/css/main.f0e0d60e.css.map",
+    "main.c93aaa11.js.map": "/static/js/main.c93aaa11.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0e0d60e.css",
+    "static/js/main.c93aaa11.js"
+  ]
+}

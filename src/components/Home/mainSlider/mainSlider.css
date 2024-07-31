@@ -1,0 +1,737 @@
+b,
+body,
+body div,
+code,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+img,
+p,
+section,
+span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: bottom;
+}
+
+section {
+    display: block
+}
+
+.row:after,
+.row:before,
+section:after,
+section:before {
+    display: table;
+    content: ""
+}
+
+.row:after,
+section:after {
+    clear: both
+}
+
+h1 {
+    font-size: 64px !important;
+}
+
+[tooltip]:after,
+[tooltip]:before {
+    -webkit-transition: opacity .3s;
+    -moz-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    transition: opacity .3s
+}
+
+.nopad-t {
+    padding-top: 0 !important
+}
+
+.nopad-b {
+    padding-bottom: 0 !important
+}
+
+.nopad {
+    padding: 0 !important
+}
+
+.left {
+    float: left !important
+}
+
+.right {
+    float: right !important
+}
+
+html {
+    background: #fff;
+    font-size: 62.5%;
+    -webkit-overflow-scrolling: touch;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: transparent;
+    font-size: 18px;
+    font-size: 1.8rem;
+    color: #fff;
+    text-rendering: optimizeLegibility
+}
+
+.content {
+    margin-top: 62px
+}
+
+.row {
+    max-width: 68rem;
+    margin: 0 auto
+}
+
+.h1,
+.h2,
+h1,
+h2 {
+    margin: 0;
+    color: #fff;
+    text-rendering: optimizelegibility;
+    font-weight: 400;
+    font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif
+}
+
+.h1,
+h1 {
+    margin-bottom: .8rem;
+    font-size: 80px;
+    font-size: 8rem;
+    line-height: 1.2;
+    letter-spacing: -.06em
+}
+
+.h2,
+h2 {
+    margin-bottom: 1.6rem;
+    font-size: 36px;
+    font-size: 3.6rem;
+    line-height: 1.2;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif
+}
+
+.h3,
+h3 {
+    margin-bottom: 1.6rem;
+    font-size: 22px;
+    font-size: 2.2rem;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: "proxima nova semibold", "Helvetica Neue", Helvetica, Arial, Sans-serif
+}
+
+p {
+    margin-bottom: 2.4rem;
+    line-height: 1.7;
+    font-size: 20px;
+    font-size: 1.5rem
+}
+
+p.light {
+    color: #757575 !important
+}
+
+a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff
+}
+
+a:active,
+a:hover {
+    color: #757575
+}
+
+::selection {
+    background: #fff;
+    color: #fff
+}
+
+::-moz-selection {
+    background: #fff;
+    color: #fff
+}
+
+::-webkit-selection {
+    background: #fff;
+    color: #fff
+}
+
+@font-face {
+    font-family: 'proxima nova bold';
+    src: url(fonts/proximanova-bold-webfont.eot);
+    src: url(fonts/proximanova-bold-webfontd41d.eot?#iefix) format('embedded-opentype'), url(fonts/proximanova-bold-webfont.woff) format('woff'), url(fonts/proximanova-bold-webfont.html) format('truetype'), url(fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'proxima nova semibold';
+    src: url(fonts/proximanova-semibold-webfont.html) format('woff2'), url(fonts/proximanova-semibold-webfont.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'proxima nova light';
+    src: url(fonts/proximanova-light-webfont.eot);
+    src: url(fonts/proximanova-light-webfontd41d.eot?#iefix) format('embedded-opentype'), url(fonts/proximanova-light-webfont.woff) format('woff'), url(fonts/proximanova-light-webfont.html) format('truetype'), url(fonts/proximanova-light-webfont.svg#proxima_nova_ltregular) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+section.light {
+    overflow: hidden;
+    border-top: #fff solid 1px;
+    /* padding: 6.4rem 3.2rem; */
+    
+}
+
+.about section.light:last-child {
+    padding-bottom: 12.8rem
+}
+
+section.light {
+    border-bottom: #ddd solid 1px
+}
+
+img {
+    max-width: 100%;
+    position: relative;
+    margin-bottom: 4rem;
+    height: auto
+}
+
+.portfolio .h1,
+.portfolio h1 {
+    font-size: 40px;
+    font-size: 4rem;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    border-bottom: #ddd solid 1px;
+    letter-spacing: -.1rem;
+    padding-bottom: .8rem;
+    font-weight: 400
+}
+
+.portfolio .h2,
+.portfolio .h3,
+.portfolio h2,
+.portfolio h3 {
+    padding-top: 1.6rem
+}
+
+a:hover.button {
+    opacity: .8
+}
+
+a:active.button {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05);
+    -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05)
+}
+
+[tooltip] {
+    position: relative;
+    display: inline-block
+}
+
+[tooltip]:before {
+    content: "";
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    border-width: 10px 10px 0 10px;
+    border-style: solid;
+    z-index: 99;
+    opacity: 0;
+    border-color: #fafafa transparent transparent;
+    transform: translateX(-50%) translatey(0) rotate(-180deg)
+}
+
+[tooltip]:after {
+    content: attr(tooltip);
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    background-color: #fafafa;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+    font-size: 1.4rem;
+    min-width: 120px;
+    border-radius: 3px;
+    pointer-events: none;
+    z-index: 99;
+    opacity: 0;
+    margin-top: 10px;
+    transform: translateX(-50%) translateY(0);
+    text-rendering: optimizeLegibility;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
+    text-indent: 0;
+    line-height: 1.5;
+    text-transform: none
+}
+
+[tooltip]:hover:after,
+[tooltip]:hover:before {
+    opacity: 1
+}
+
+.face {
+    width: 100%;
+    position: relative
+}
+
+.face .face-img {
+    display: block;
+    margin: 0
+}
+
+.face a {
+    color: #757575;
+    text-decoration: none
+}
+
+.face .coder,
+.face .designer {
+    position: absolute;
+    width: 40%;
+    display: block;
+    z-index: 10;
+    height: 20%;
+    margin: auto;
+    top: 0;
+    bottom: 0
+}
+
+.face .coder h1,
+.face .designer h1 {
+    display: none
+}
+
+.face .designer {
+    left: 0
+}
+
+.face .coder {
+    right: 0;
+    text-align: right
+}
+
+.face .coder p,
+.face .coder-bg,
+.face .coder-img,
+.face .designer p,
+.face .designer-bg,
+.face .designer-img {
+    display: none
+}
+
+@media only screen and (min-width:320px) {
+
+    .face .coder h1,
+    .face .designer h1 {
+        display: block;
+        font-size: 22px;
+        font-size: 2.2rem
+    }
+
+    .face .coder h1 span,
+    .face .designer h1 span {
+        line-height: 1
+    }
+
+    .face .coder h1 span.chevron-left,
+    .face .designer h1 span.chevron-left {
+        padding: 0 .1em 0 0
+    }
+
+    .face .coder h1 span.chevron-right,
+    .face .designer h1 span.chevron-right {
+        padding: 0 0 0 .14em
+    }
+}
+
+@media only screen and (min-width:375px) {
+
+    .face .coder h1,
+    .face .designer h1 {
+        font-size: 26px;
+        font-size: 2.6rem
+    }
+}
+
+@media only screen and (min-width:414px) {
+
+    .face .coder h1,
+    .face .designer h1 {
+        font-size: 30px;
+        font-size: 3rem
+    }
+}
+
+@media only screen and (min-width:500px) {
+
+    .face .coder h1,
+    .face .designer h1 {
+        font-size: 36px;
+        font-size: 3.6rem
+    }
+}
+
+@media only screen and (min-width:600px) {
+
+    .face .coder h1,
+    .face .designer h1 {
+        font-size: 46px;
+        font-size: 4.6rem
+    }
+}
+
+@media only screen and (min-width:768px) {
+
+    .face .coder,
+    .face .designer {
+        width: 30%;
+        height: 44%
+    }
+
+    .face .coder h1,
+    .face .designer h1 {
+        font-size: 56px;
+        font-size: 5.6rem
+    }
+
+    .face .coder p,
+    .face .designer p {
+        display: block;
+        font-size: 16px;
+        font-size: 1.6rem;
+        margin: 0
+    }
+}
+
+@media only screen and (min-width:900px) {
+
+    .face .coder,
+    .face .designer {
+        width: 32%
+    }
+
+    .face .coder h1,
+    .face .designer h1 {
+        font-size: 64px;
+        font-size: 6.4rem
+    }
+}
+
+@media only screen and (min-width:1024px) {
+
+    .face .coder,
+    .face .designer {
+        width: 30%
+    }
+
+    .face .coder h1,
+    .face .designer h1 {
+        font-size: 72px;
+        font-size: 7.2rem
+    }
+
+    .face .coder p,
+    .face .designer p {
+        font-size: 18px;
+        font-size: 1.8rem;
+        line-height: 1.4
+    }
+}
+
+@media only screen and (min-width:1140px) {
+    .face {
+        height: 600px;
+        position: relative
+    }
+
+    .face .coder,
+    .face .designer {
+        width: 50%;
+        height: 600px;
+        top: 0;
+        position: absolute
+    }
+
+    .face .coder h1,
+    .face .designer h1 {
+        font-size: 82px;
+        font-size: 8.2rem
+    }
+
+    .face .coder .description,
+    .face .designer .description {
+        position: absolute;
+        top: 180px;
+        width: 100%;
+        padding: 0 120px;
+    }
+
+    .face .coder {
+        text-align: left;
+        right: 0
+    }
+
+    .face .coder .description {
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .face .designer {
+        left: 0
+    }
+
+    .face .designer .description {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .face .coder-img,
+    .face .designer-img {
+        width: 420px;
+        height: 600px;
+        position: absolute;
+        top: 0;
+        /* background: url(images/spritesheet.jpg) 0 0 no-repeat; */
+        display: block;
+        z-index: 1
+    }
+
+    .face .designer-img {
+        background-position: 0 -600px;
+        left: 100px
+    }
+
+    .face .coder-img {
+        background-position: 100% 0;
+        right: 100px
+    }
+
+    .face .coder-bg,
+    .face .designer-bg {
+        width: 50%;
+        height: 100%;
+        display: block;
+        filter: brightness(50%);
+    }
+
+    .face .designer-bg {
+        /* left: 100px */
+    }
+
+    .face .coder-bg {
+        /* right: 100px;
+        background-position: 100% -1300px */
+    }
+
+    .face .face-img {
+        z-index: 1;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -71px;
+    }
+}
+
+@media only screen and (min-width:428px) {
+
+    .h1,
+    h1 {
+        font-size: 96px;
+        font-size: 9.6rem
+    }
+
+    .portfolio .h1,
+    .portfolio h1 {
+        font-size: 48px;
+        font-size: 4.8rem
+    }
+
+    section.light {
+        /* padding: 8rem 4.3rem */
+    }
+}
+
+@media only screen and (min-width:830px) {
+    .content {
+        margin-top: 92px
+    }
+
+    .h1,
+    h1 {
+        font-size: 102px;
+        font-size: 10.2rem
+    }
+
+    .portfolio .h1,
+    .portfolio h1 {
+        font-size: 56px;
+        font-size: 5.6rem
+    }
+
+    section.light {
+        margin-top: 85px;
+    }
+
+    [tooltip]:after {
+        min-width: 220px
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    p {
+        font-size: 18px;
+        font-size: 1.8rem
+    }
+
+    .content .row,
+    .row {
+        clear: both;
+        max-width: 1080px;
+        margin: 0 auto
+    }
+
+    .row.alt [class^=col-] {
+        float: right;
+        margin: 0 0 0 3.84615385%
+    }
+
+    [class^=col-] {
+        float: left;
+        margin: 0 3.84615385% 0 0;
+        list-style: none;
+        position: relative
+    }
+
+    .row.alt [class^=col-]:last-child,
+    [class^=col-]:last-child {
+        margin: 0
+    }
+
+    .col-1 {
+        width: 4.80769231%
+    }
+
+    .col-2 {
+        width: 13.46153846%
+    }
+
+    .col-3 {
+        width: 22.11538462%
+    }
+
+    .col-4 {
+        width: 30.76923077%
+    }
+
+    .col-5 {
+        width: 39.42307692%
+    }
+
+    .col-6 {
+        width: 48.07692308%
+    }
+
+    .col-7 {
+        width: 56.73076923%
+    }
+
+    .col-8 {
+        width: 65.38461538%
+    }
+
+    .col-9 {
+        width: 74.03846154%
+    }
+
+    .col-10 {
+        width: 82.69230769%
+    }
+
+    .col-11 {
+        width: 91.34615385%
+    }
+
+    .col-12 {
+        width: 100%;
+        margin: 0
+    }
+
+    .portfolio img {
+        margin-bottom: 6.4rem
+    }
+
+    .portfolio .h1,
+    .portfolio h1 {
+        font-size: 48px;
+        font-size: 4.8rem
+    }
+}
+
+body {
+    background-color: #505050;
+}
+
+.face .coder-bg {
+    /* height: 584px; */
+    position: absolute;
+    bottom: 0;
+    background: url(images/spritesheet.jpg);
+    background-position: -100px 0;
+    right: 0;
+}
+
+.face .designer-bg {
+    /* height: 584px; */
+    position: absolute;
+    bottom: 0;
+    background: url(images/spritesheet.jpg);
+    background-position: -1582px 0;
+    left: 0;
+}
+
+.full-width {
+    width: 100%;
+    max-width: 100%;
+}
+
+.name-title {
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    top: 20px;
+}
+.subtitle {
+    font-weight: 600;
+}
+.subtext {
+    color: #fff;
+}
